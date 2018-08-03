@@ -13,16 +13,25 @@ body {
 a {
     text-decoration: none;
     color: black;
-
 }
 
 #leftName {
     background-color: #4aaaa5;
     color: white;
+    display: inline;
 }
 .clearFix::after {
     content: "";
     display: block;
     clear: both;
     background-color: blue;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.contentBox{
+    width: 960px;
+    margin: auto;
 }
