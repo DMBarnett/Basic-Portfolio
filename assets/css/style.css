@@ -3,15 +3,26 @@ body {
     background-repeat: repeat;
 }
 
-header {
-    background-color:white;
+#bodyText{
+    background-color: white;
 }
-
 #portrait {
     float: left;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
 #leftName {
     background-color: #4aaaa5;
-    float:left;
+    color: white;
+}
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+    background-color: blue;
 }
